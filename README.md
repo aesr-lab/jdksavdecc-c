@@ -12,3 +12,11 @@ Please see http://avb.statusbar.com/
 Copyright 2013 by Jeff Koftinoff, J.D. Koftinoff Software, Ltd.
 
 Please see the file COPYRIGHT for the details of the BSD 3-clause Open Source software license.
+
+
+## build jdksavdecc-c
+
+```
+./configure --target-platform-linux=1
+make
+```
