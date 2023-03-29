@@ -66,6 +66,7 @@ extern "C" {
 #define JDKSAVDECC_APPDU_OFFSET_ADDRESS ( 4 )        /** See IEEE Std 1722.1-2013 Annex C.4.4 */
 #define JDKSAVDECC_APPDU_OFFSET_RESERVED ( 10 )      /** See IEEE Std 1722.1-2013 Annex C.4 */
 #define JDKSAVDECC_APPDU_OFFSET_PAYLOAD ( 12 )       /** See IEEE Std 1722.1-2013 Annex C.4.5 */
+
 #define JDKSAVDECC_APPDU_HEADER_LEN ( 12 )           /** See IEEE Std 1722.1-2013 Annex C.4 */
 
 /*@}*/
@@ -75,6 +76,7 @@ extern "C" {
 
 #define JDKSAVDECC_APPDU_VERSION ( 0 )                         /** See IEEE Std 1722.1-2013 Annex C.4.1 */
 #define JDKSAVDECC_APPDU_MAX_PAYLOAD_LENGTH ( 1500 )           /** See IEEE Std 1722.1-2013 Annex C.4.3 */
+
 #define JDKSAVDECC_APPDU_MESSAGE_TYPE_NOP ( 0 )                /** See IEEE Std 1722.1-2103 Annex C.5.1.1 */
 #define JDKSAVDECC_APPDU_MESSAGE_TYPE_ENTITY_ID_REQUEST ( 1 )  /** See IEEE Std 1722.1-2103 Annex C.5.1.2 */
 #define JDKSAVDECC_APPDU_MESSAGE_TYPE_ENTITY_ID_RESPONSE ( 2 ) /** See IEEE Std 1722.1-2103 Annex C.5.1.3 */
